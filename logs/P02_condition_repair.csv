@@ -1,0 +1,65 @@
+record,utc_time,elapsed_s,scene,procedure,step_index,step_id,duration_s,first_action_s,auto_hint,object,expected,detail,practice,schema_version,participant_code,condition,guidance,task_id,task_order,time_cap_s,completion_reason,active_duration_s,cue_level,cue_type,manual_lookup_s
+session,1970-01-01T00:00:00.000Z,0.000,sorter-warehouse,,,,,,,,,start,,1,P02,C1,C1,aided,1,900.000,,,,,
+event,1970-01-01T00:00:00.000Z,0.000,sorter-warehouse,,,,,,,C1,work_order=on step_card=off part_tags=off tool_cue=off hint_ladder=off help_on_demand=off walkthrough=off wrong_tool_flash=off safety_gate=on tracker=on step_chime=off any_order=on close_up=open_steps,condition_applied,,1,P02,C1,C1,aided,1,900.000,,,,,
+event,1970-01-01T00:00:00.000Z,0.001,sorter-warehouse,,,,,,,,,tutorial_start,,1,P02,C1,C1,aided,1,900.000,,,,,
+event,1970-01-01T00:00:20.928Z,20.928,sorter-warehouse,,,,,,,drive.connecting_plate,zone isolation,safety_skip,,1,P02,C1,C1,aided,1,900.000,,,,,
+event,1970-01-01T00:00:27.955Z,27.955,sorter-warehouse,,,,,,,move,,tutorial_lesson,,1,P02,C1,C1,aided,1,900.000,,,,,
+event,1970-01-01T00:01:48.044Z,108.044,sorter-warehouse,,,,,,,take_tool,,tutorial_lesson,,1,P02,C1,C1,aided,1,900.000,skipped,,,,
+event,1970-01-01T00:01:53.123Z,113.123,sorter-warehouse,,,,,,,tool_back,,tutorial_lesson,,1,P02,C1,C1,aided,1,900.000,skipped,,,,
+event,1970-01-01T00:02:03.487Z,123.487,sorter-warehouse,,,,,,,,,manual_lookup_start,,1,P02,C1,C1,aided,1,900.000,,,,,
+event,1970-01-01T00:02:49.957Z,169.957,sorter-warehouse,,,,,,,1 2 3,,manual_lookup_end,,1,P02,C1,C1,aided,1,900.000,,,,,46.470
+event,1970-01-01T00:02:52.417Z,172.417,sorter-warehouse,,,,,,,manual,,tutorial_lesson,,1,P02,C1,C1,aided,1,900.000,user,,,,
+event,1970-01-01T00:02:56.444Z,176.444,sorter-warehouse,,,,,,,pause,,tutorial_lesson,,1,P02,C1,C1,aided,1,900.000,,,,,
+event,1970-01-01T00:02:56.444Z,176.444,sorter-warehouse,,,,,,,,,tutorial_end,,1,P02,C1,C1,aided,1,900.000,,,,,
+event,1970-01-01T00:03:13.583Z,193.584,sorter-warehouse,,,,,,,,,task_start,Practice 2 · C24 does not discharge,1,P02,C1,C1,aided,1,900.000,,,,,
+event,1970-01-01T00:03:13.613Z,193.613,sorter-warehouse,Repair plan: Drive roller of C24 worn,1,1,,,,,,step_start,Practice 2 · C24 does not discharge,1,P02,C1,C1,aided,1,900.000,,,,,
+event,1970-01-01T00:03:23.801Z,203.802,sorter-warehouse,Repair plan: Drive roller of C24 worn,1,1,,,,,,manual_lookup_start,Practice 2 · C24 does not discharge,1,P02,C1,C1,aided,1,900.000,,,,,
+event,1970-01-01T00:05:01.415Z,301.416,sorter-warehouse,Repair plan: Drive roller of C24 worn,1,1,,,,3 4 5 6 1 2,,manual_lookup_end,Practice 2 · C24 does not discharge,1,P02,C1,C1,aided,1,900.000,,,,,97.614
+event,1970-01-01T00:05:24.658Z,324.658,sorter-warehouse,Repair plan: Drive roller of C24 worn,1,1,,,,zone.barrier.1,,correct_part_grabbed,Practice 2 · C24 does not discharge,1,P02,C1,C1,aided,1,900.000,,,,,
+event,1970-01-01T00:05:25.637Z,325.637,sorter-warehouse,Repair plan: Drive roller of C24 worn,1,1,,,,adapter,zone isolation,safety_skip,Practice 2 · C24 does not discharge,1,P02,C1,C1,aided,1,900.000,,,,,
+event,1970-01-01T00:05:33.384Z,333.384,sorter-warehouse,Repair plan: Drive roller of C24 worn,1,1,,,,zone.barrier.1,,correct_interaction,Practice 2 · C24 does not discharge,1,P02,C1,C1,aided,1,900.000,,,,,
+step,1970-01-01T00:07:14.597Z,434.597,sorter-warehouse,Repair plan: Drive roller of C24 worn,1,1,240.984,4.374,no,,,completed,Practice 2 · C24 does not discharge,1,P02,C1,C1,aided,1,900.000,user,240.984,,,97.614
+event,1970-01-01T00:07:14.597Z,434.597,sorter-warehouse,Repair plan: Drive roller of C24 worn,2,2,,,,,,step_start,Practice 2 · C24 does not discharge,1,P02,C1,C1,aided,1,900.000,,,,,
+event,1970-01-01T00:07:21.517Z,441.517,sorter-warehouse,Repair plan: Drive roller of C24 worn,2,2,,,,,,manual_lookup_start,Practice 2 · C24 does not discharge,1,P02,C1,C1,aided,1,900.000,,,,,
+event,1970-01-01T00:07:37.910Z,457.911,sorter-warehouse,Repair plan: Drive roller of C24 worn,2,2,,,,2 3,,manual_lookup_end,Practice 2 · C24 does not discharge,1,P02,C1,C1,aided,1,900.000,,,,,16.393
+event,1970-01-01T00:07:41.772Z,461.772,sorter-warehouse,Repair plan: Drive roller of C24 worn,2,2,,,,drive.connecting_plate,isolation,safety_skip,Practice 2 · C24 does not discharge,1,P02,C1,C1,aided,1,900.000,,,,,
+event,1970-01-01T00:07:48.524Z,468.525,sorter-warehouse,Repair plan: Drive roller of C24 worn,2,2,,,,car.24.belt_frame,isolation,safety_skip,Practice 2 · C24 does not discharge,1,P02,C1,C1,aided,1,900.000,,,,,
+event,1970-01-01T00:08:04.526Z,484.526,sorter-warehouse,Repair plan: Drive roller of C24 worn,2,2,,,,cab.main_switch,,correct_interaction,Practice 2 · C24 does not discharge,1,P02,C1,C1,aided,1,900.000,,,,,
+event,1970-01-01T00:08:18.348Z,498.348,sorter-warehouse,Repair plan: Drive roller of C24 worn,2,2,,,,,,manual_lookup_start,Practice 2 · C24 does not discharge,1,P02,C1,C1,aided,1,900.000,,,,,
+event,1970-01-01T00:10:25.769Z,625.769,sorter-warehouse,Repair plan: Drive roller of C24 worn,2,2,,,,3 4 5 6 2 1,,manual_lookup_end,Practice 2 · C24 does not discharge,1,P02,C1,C1,aided,1,900.000,,,,,127.421
+event,1970-01-01T00:10:56.339Z,656.339,sorter-warehouse,Repair plan: Drive roller of C24 worn,2,2,,,,cover.24,isolation,safety_skip,Practice 2 · C24 does not discharge,1,P02,C1,C1,aided,1,900.000,,,,,
+event,1970-01-01T00:12:04.245Z,724.245,sorter-warehouse,Repair plan: Drive roller of C24 worn,2,2,,,,tool.hexkey4,,correct_tool_picked,Practice 2 · C24 does not discharge,1,P02,C1,C1,aided,1,900.000,,,,,
+event,1970-01-01T00:12:07.293Z,727.293,sorter-warehouse,Repair plan: Drive roller of C24 worn,2,2,,,,car.24,isolation,safety_skip,Practice 2 · C24 does not discharge,1,P02,C1,C1,aided,1,900.000,,,,,
+event,1970-01-01T00:12:09.967Z,729.967,sorter-warehouse,Repair plan: Drive roller of C24 worn,2,2,,,,cover.24.screw.2,isolation,safety_skip,Practice 2 · C24 does not discharge,1,P02,C1,C1,aided,1,900.000,,,,,
+event,1970-01-01T00:12:24.990Z,744.990,sorter-warehouse,Repair plan: Drive roller of C24 worn,2,2,,,,adapter,,correct_part_grabbed,Practice 2 · C24 does not discharge,1,P02,C1,C1,aided,1,900.000,,,,,
+event,1970-01-01T00:12:38.890Z,758.891,sorter-warehouse,Repair plan: Drive roller of C24 worn,2,2,,,,car.25,isolation,safety_skip,Practice 2 · C24 does not discharge,1,P02,C1,C1,aided,1,900.000,,,,,
+event,1970-01-01T00:12:45.752Z,765.752,sorter-warehouse,Repair plan: Drive roller of C24 worn,2,2,,,,drive.pu,isolation,safety_skip,Practice 2 · C24 does not discharge,1,P02,C1,C1,aided,1,900.000,,,,,
+event,1970-01-01T00:13:22.184Z,802.185,sorter-warehouse,Repair plan: Drive roller of C24 worn,2,2,,,,tool.hexkey4,cover.24.screw.2,tool_applied,Practice 2 · C24 does not discharge,1,P02,C1,C1,aided,1,900.000,,,,,
+event,1970-01-01T00:13:42.939Z,822.939,sorter-warehouse,Repair plan: Drive roller of C24 worn,2,2,,,,cover.24.screw.1,isolation,safety_skip,Practice 2 · C24 does not discharge,1,P02,C1,C1,aided,1,900.000,,,,,
+event,1970-01-01T00:13:42.973Z,822.973,sorter-warehouse,Repair plan: Drive roller of C24 worn,2,2,,,,tool.hexkey4,cover.24.screw.1,tool_applied,Practice 2 · C24 does not discharge,1,P02,C1,C1,aided,1,900.000,,,,,
+event,1970-01-01T00:13:47.717Z,827.717,sorter-warehouse,Repair plan: Drive roller of C24 worn,2,2,,,,cover.23.screw.1,isolation,safety_skip,Practice 2 · C24 does not discharge,1,P02,C1,C1,aided,1,900.000,,,,,
+event,1970-01-01T00:13:47.748Z,827.748,sorter-warehouse,Repair plan: Drive roller of C24 worn,2,2,,,,tool.hexkey4,cover.23.screw.1,tool_applied,Practice 2 · C24 does not discharge,1,P02,C1,C1,aided,1,900.000,,,,,
+event,1970-01-01T00:13:47.943Z,827.943,sorter-warehouse,Repair plan: Drive roller of C24 worn,2,2,,,,cover.23,isolation,safety_skip,Practice 2 · C24 does not discharge,1,P02,C1,C1,aided,1,900.000,,,,,
+event,1970-01-01T00:14:04.243Z,844.243,sorter-warehouse,Repair plan: Drive roller of C24 worn,2,2,,,,car.23.bracket_nut.2,zone isolation,safety_skip,Practice 2 · C24 does not discharge,1,P02,C1,C1,aided,1,900.000,,,,,
+event,1970-01-01T00:14:04.243Z,844.244,sorter-warehouse,Repair plan: Drive roller of C24 worn,2,2,,,,car.23.bracket_nut.2,cover.23.screw.1 cover.23.screw.2 cover.24.screw.1 cover.24.screw.2 adapter.bolt car.24.bracket_nut.1 car.24.bracket_nut.2 car.23.bolt car.24.bolt car.24.roller27.screw,wrong_part_attempt,Practice 2 · C24 does not discharge,1,P02,C1,C1,aided,1,900.000,,,,,
+event,1970-01-01T00:14:08.073Z,848.073,sorter-warehouse,Repair plan: Drive roller of C24 worn,2,2,,,,cover.23.screw.2,isolation,safety_skip,Practice 2 · C24 does not discharge,1,P02,C1,C1,aided,1,900.000,,,,,
+event,1970-01-01T00:14:08.107Z,848.107,sorter-warehouse,Repair plan: Drive roller of C24 worn,2,2,,,,tool.hexkey4,cover.23.screw.2,tool_applied,Practice 2 · C24 does not discharge,1,P02,C1,C1,aided,1,900.000,,,,,
+event,1970-01-01T00:14:10.917Z,850.917,sorter-warehouse,Repair plan: Drive roller of C24 worn,2,2,,,,car.23,isolation,safety_skip,Practice 2 · C24 does not discharge,1,P02,C1,C1,aided,1,900.000,,,,,
+step,1970-01-01T00:14:30.374Z,870.375,sorter-warehouse,Repair plan: Drive roller of C24 worn,2,2,,,,,,skipped,Practice 2 · C24 does not discharge,1,P02,C1,C1,aided,1,900.000,skipped,,,,
+step,1970-01-01T00:14:30.375Z,870.375,sorter-warehouse,Repair plan: Drive roller of C24 worn,3,3,435.778,27.175,no,,,completed,Practice 2 · C24 does not discharge,1,P02,C1,C1,aided,1,900.000,user,435.778,,,143.815
+event,1970-01-01T00:14:30.375Z,870.375,sorter-warehouse,Repair plan: Drive roller of C24 worn,4,4,,,,,,step_start,Practice 2 · C24 does not discharge,1,P02,C1,C1,aided,1,900.000,,,,,
+event,1970-01-01T00:14:35.503Z,875.503,sorter-warehouse,Repair plan: Drive roller of C24 worn,4,4,,,,adapter,,correct_part_grabbed,Practice 2 · C24 does not discharge,1,P02,C1,C1,aided,1,900.000,,,,,
+event,1970-01-01T00:14:42.737Z,882.737,sorter-warehouse,Repair plan: Drive roller of C24 worn,4,4,,,,,,manual_lookup_start,Practice 2 · C24 does not discharge,1,P02,C1,C1,aided,1,900.000,,,,,
+event,1970-01-01T00:15:27.345Z,927.345,sorter-warehouse,Repair plan: Drive roller of C24 worn,4,4,,,,4 5 1,,manual_lookup_end,Practice 2 · C24 does not discharge,1,P02,C1,C1,aided,1,900.000,,,,,44.608
+event,1970-01-01T00:15:38.266Z,938.266,sorter-warehouse,Repair plan: Drive roller of C24 worn,4,4,,,,,,manual_lookup_start,Practice 2 · C24 does not discharge,1,P02,C1,C1,aided,1,900.000,,,,,
+event,1970-01-01T00:15:41.972Z,941.972,sorter-warehouse,Repair plan: Drive roller of C24 worn,4,4,,,,1,,manual_lookup_end,Practice 2 · C24 does not discharge,1,P02,C1,C1,aided,1,900.000,,,,,3.706
+event,1970-01-01T00:16:21.631Z,981.631,sorter-warehouse,Repair plan: Drive roller of C24 worn,4,4,,,,adapter,,correct_interaction,Practice 2 · C24 does not discharge,1,P02,C1,C1,aided,1,900.000,,,,,
+event,1970-01-01T00:16:48.662Z,1008.662,sorter-warehouse,Repair plan: Drive roller of C24 worn,4,4,,,,,,manual_lookup_start,Practice 2 · C24 does not discharge,1,P02,C1,C1,aided,1,900.000,,,,,
+event,1970-01-01T00:17:15.482Z,1035.482,sorter-warehouse,Repair plan: Drive roller of C24 worn,4,4,,,,1 2 6,,manual_lookup_end,Practice 2 · C24 does not discharge,1,P02,C1,C1,aided,1,900.000,,,,,26.820
+event,1970-01-01T00:17:29.051Z,1049.051,sorter-warehouse,Repair plan: Drive roller of C24 worn,4,4,,,,car.24.roller27,isolation,safety_skip,Practice 2 · C24 does not discharge,1,P02,C1,C1,aided,1,900.000,,,,,
+event,1970-01-01T00:17:50.232Z,1070.233,sorter-warehouse,Repair plan: Drive roller of C24 worn,4,4,,,,pu.cover,isolation,safety_skip,Practice 2 · C24 does not discharge,1,P02,C1,C1,aided,1,900.000,,,,,
+event,1970-01-01T00:18:08.174Z,1088.175,sorter-warehouse,Repair plan: Drive roller of C24 worn,4,4,,,,tool.loctite,tool.hexkey8 tool.spanner10 tool.spanner13 tool.puller tool.roller_new,wrong_tool_picked,Practice 2 · C24 does not discharge,1,P02,C1,C1,aided,1,900.000,,,,,
+step,1970-01-01T00:18:13.596Z,1093.597,sorter-warehouse,Repair plan: Drive roller of C24 worn,4,4,223.222,0.698,no,,,timed out,Practice 2 · C24 does not discharge,1,P02,C1,C1,aided,1,900.000,,223.222,,,75.134
+procedure,1970-01-01T00:18:13.597Z,1093.597,sorter-warehouse,Repair plan: Drive roller of C24 worn,4,4,899.984,4.374,no,,,timed out,Practice 2 · C24 does not discharge,1,P02,C1,C1,aided,1,900.000,timed_out,899.984,,,316.562
+practice,1970-01-01T00:18:13.597Z,1093.597,sorter-warehouse,,,,917.141,10.614,no,,,timed out,Practice 2 · C24 does not discharge,1,P02,C1,C1,aided,1,900.000,,917.141,,,316.562
+session,1970-01-01T00:18:13.604Z,1093.604,sorter-warehouse,,,,1093.604,20.928,no,,,ended,,1,P02,C1,C1,aided,1,900.000,,1093.604,,,363.033

@@ -1,0 +1,92 @@
+participant,condition,task,lookup,step,start_s,length_s,pages
+P01,C3,condition_repair,1,1,27.36699999999999,8.622,1
+P02,C1,condition_repair,1,1,10.217999999999961,97.614,3 4 5 6 1 2
+P02,C1,condition_repair,2,2,247.93299999999988,16.393,2 3
+P02,C1,condition_repair,3,2,304.764,127.421,3 4 5 6 2 1
+P02,C1,condition_repair,4,4,689.1529999999999,44.608,4 5 1
+P02,C1,condition_repair,5,4,744.6819999999999,3.706,1
+P02,C1,condition_repair,6,4,815.0780000000001,26.82,1 2 6
+P05,C1,condition_repair,1,1,12.57099999999997,102.78,1 2
+P05,C1,condition_repair,2,1,153.76099999999997,46.911,2
+P05,C1,condition_repair,3,1,315.49800000000005,181.025,2 3 1 4
+P05,C1,condition_repair,4,4,616.297,117.182,1 2 3 4 5
+P05,C1,condition_repair,5,4,845.5909999999999,54.415,3 2 1 4 5
+P08,C1,condition_repair,1,1,9.460000000000008,66.801,4 1 2
+P08,C1,condition_repair,2,1,156.877,8.378,2
+P08,C1,condition_repair,3,2,258.394,44.358,2 1 3 4 6 9
+P08,C1,condition_repair,4,2,333.91499999999996,49.437,9 8 1 2 4 3
+P08,C1,condition_repair,5,4,495.18600000000004,23.709,4 3 2 1
+P08,C1,condition_repair,6,4,533.795,21.399,2 3 4 5
+P08,C1,condition_repair,7,5,639.377,42.101,5 1 2 4
+P12,C1,condition_repair,1,1,9.044000000000096,269.441,1 2 5 4 3 9 8 7 6
+P12,C1,condition_repair,2,1,328.1020000000001,57.26,2 1 9
+P12,C1,condition_repair,3,1,418.336,43.667,9 8 1 3 4
+P12,C1,condition_repair,4,4,604.3090000000002,57.962,4 1 2
+P12,C1,condition_repair,5,4,746.297,124.202,2 1 4 5 6
+P14,C1,condition_repair,1,2,3.3019999999999072,0.443,
+P14,C1,condition_repair,2,2,6.802999999999997,0.575,
+P14,C1,condition_repair,3,2,8.004999999999995,64.69,2 1 3 4 5 9
+P14,C1,condition_repair,4,2,73.7589999999999,2.85,9
+P14,C1,condition_repair,5,2,125.54100000000005,41.605,9 1 2 4
+P14,C1,condition_repair,6,2,171.899,3.247,4
+P14,C1,condition_repair,7,4,426.37700000000007,16.008,4 1
+P14,C1,condition_repair,8,4,458.26599999999996,0.611,
+P14,C1,condition_repair,9,4,466.78100000000006,79.003,1 2 3 4 5
+P18,C1,condition_repair,1,1,10.990000000000009,25.224,1
+P18,C1,condition_repair,2,1,76.737,11.798,1
+P18,C1,condition_repair,3,2,201.11499999999998,7.87,1
+P18,C1,condition_repair,4,2,252.83900000000003,6.256,1
+P18,C1,condition_repair,5,3,321.89699999999993,8.903,1
+P18,C1,condition_repair,6,4,452.84899999999993,9.305,1 2
+P18,C1,condition_repair,7,5,700.502,15.728,2 1
+P19,C1,condition_repair,1,1,18.294999999999987,72.373,1 2
+P19,C1,condition_repair,2,2,164.16,17.609,1
+P19,C1,condition_repair,3,2,206.82699999999997,12.739,1
+P19,C1,condition_repair,4,2,257.48400000000004,0.565,
+P19,C1,condition_repair,5,2,261.548,25.029,1
+P19,C1,condition_repair,6,4,420.36,77.25,1 2 4
+P19,C1,condition_repair,7,4,498.001,4.551,4
+P19,C1,condition_repair,8,4,507.611,52.0,4 1 5
+P19,C1,condition_repair,9,5,684.6850000000001,109.166,5 6 7 1
+P20,C3,condition_repair,1,1,255.42900000000003,13.763,1
+P22,C1,condition_repair,1,2,138.51800000000003,10.379,1
+P22,C1,condition_repair,2,2,179.01200000000017,16.07,1
+P22,C1,condition_repair,3,4,418.46900000000005,10.122,1
+P22,C1,condition_repair,4,5,595.8100000000002,12.971,1
+P22,C1,condition_repair,5,6,852.8250000000003,14.256,1
+P25,C1,condition_repair,1,1,15.452000000000027,72.926,1 2
+P25,C1,condition_repair,2,2,239.047,86.5,2 1 3 8 9
+P25,C1,condition_repair,3,2,367.40999999999997,64.405,9 8 5 3 1 2 4
+P25,C1,condition_repair,4,4,560.821,82.897,4 3 1 2
+P25,C1,condition_repair,5,5,757.8,85.513,3 1 5
+P29,C1,condition_repair,1,1,6.284999999999968,33.796,8 1 2
+P29,C1,condition_repair,2,2,103.92999999999995,42.076,2 1 3 5 7 9
+P29,C1,condition_repair,3,3,202.16899999999998,40.878,9 1 2 3 4
+P29,C1,condition_repair,4,4,331.874,36.395,4 3 1 2 8 9
+P29,C1,condition_repair,5,5,451.45900000000006,60.477,9 1 2 3 4 5 6 7 8
+P29,C1,condition_repair,6,6,625.8519999999999,53.653,6 5 1 2 3 4
+P30,C2,condition_repair,1,1,99.976,2.449,1
+P32,C1,condition_repair,1,1,8.085000000000036,0.248,
+P32,C1,condition_repair,2,1,10.36200000000008,11.86,1
+P32,C1,condition_repair,3,2,122.41800000000012,7.917,1
+P32,C1,condition_repair,4,2,151.3800000000001,8.374,1
+P32,C1,condition_repair,5,4,347.7869999999998,7.359,1
+P32,C1,condition_repair,6,4,406.75999999999976,4.564,1
+P32,C1,condition_repair,7,5,500.00300000000016,12.01,1
+P32,C1,condition_repair,8,6,652.962,17.276,1
+P32,C1,condition_repair,9,7,703.5709999999999,10.07,1
+P32,C1,condition_repair,10,8,744.346,31.824,1
+P32,C1,condition_repair,11,8,776.6169999999997,1.192,1
+P33,C2,condition_repair,1,8,729.0330000000004,14.443,1
+P35,C1,condition_repair,1,1,20.543000000000006,59.527,1 2 3 4
+P35,C1,condition_repair,2,2,160.098,32.068,4 3 2 1
+P35,C1,condition_repair,3,2,226.62699999999995,19.609,1
+P35,C1,condition_repair,4,7,414.36800000000005,13.929,1
+P35,C1,condition_repair,5,7,467.56399999999996,9.165,1
+P35,C1,condition_repair,6,7,521.092,0.454,
+P35,C1,condition_repair,7,7,524.62,12.047,1
+P35,C1,condition_repair,8,8,684.623,16.651,1
+P39,C1,condition_repair,1,3,62.248999999999995,52.654,1
+P39,C1,condition_repair,2,4,141.716,73.197,1 2 3 4
+P39,C1,condition_repair,3,4,339.20399999999995,54.563,3 2 1 4 5
+P39,C1,condition_repair,4,8,649.97,8.12,5
