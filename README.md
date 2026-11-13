@@ -70,3 +70,8 @@ The participant forms (background, ratings, recall quiz), the manufacturer's man
 logs of tasks that were not analysed. Without the forms, the recall part of Hypothesis 8, Hypotheses
 9 and 10 (confidence calibration, workload and usability), ease, the recall quiz, the participant
 table and the descriptive tables cannot be rerun from this repository.
+
+## Terms of use
+
+The data and code are shared so that the paper's results can be inspected and checked. No licence
+is granted: they may not be copied, modified or reused without the authors' written permission.
