@@ -1,4 +1,4 @@
-# Data and code: Decisional Guidance and the Reliance Effect of Spatial Cues among Novices Performing Maintenance in Virtual Reality
+# Data and code: Decisional Guidance at the Point of Work: Anchoring and Withdrawing Spatial Cues for Novice Maintenance in Virtual Reality
 
 This repository holds the anonymised session logs of the pre-registered experiment reported in the
 paper, and the Python code that computes the paper's measures from them. The registration is on
@@ -44,6 +44,8 @@ than running on these copies. Its build identifier was removed, as it was from t
 | `R/02_exploratory.R` | Hypotheses 6 and 7, work before isolation (Hypothesis 8), the interaction of condition and repair, total time, and the sensitivity analyses |
 | `R/06_posthoc_participant_means.R` | The post hoc check of Hypotheses 2, 3 and 5 on participant means |
 | `R/07_posthoc_h5.R` | The post hoc robustness checks of Hypothesis 5 and its decision time per step (Supplementary Table S2) |
+| `R/08_posthoc_isolation_skip.R` | The post hoc check of Hypothesis 5 without the step-card and spatial-cue participants who skipped an isolation step in the condition repair |
+| `R/09_posthoc_revision_checks.R` | The post hoc checks of Hypothesis 1 on the steps each participant reached, and of Hypothesis 5 with the time between the repairs added |
 
 `R/00_load.R` loads the tables, `R/utils.R` fits the models and records their convergence, and
 `R/forms.R` holds the scoring rules of the forms.
@@ -55,14 +57,16 @@ R 4.5.3, with the packages pinned in `renv.lock`. From this folder:
     Rscript R/02_exploratory.R
     Rscript R/06_posthoc_participant_means.R
     Rscript R/07_posthoc_h5.R
+    Rscript R/08_posthoc_isolation_skip.R
+    Rscript R/09_posthoc_revision_checks.R
 
-The scripts are those of the analysis, unchanged except that one sensitivity analysis, which the
-paper does not report, was taken out. The models were built and checked on shuffled
+The scripts are those of the analysis, unchanged except that two analyses that the paper does not
+report, a sensitivity analysis and one variant of a post hoc check, were taken out. The models were built and checked on shuffled
 condition labels before the real labels were read, and the scripts keep that switch: the run on
 the real labels also read the participant forms, which are not shared, so here the scripts run in
 their default setting and write to `results/masked/`. The tables in `data/` carry the real
-conditions, so the values written there are the paper's: on these tables, the 15 result files
-matched the analysis's own row for row, apart from the rows of the sensitivity analysis taken out.
+conditions, so the values written there are the paper's: on these tables, the 21 result files
+matched the analysis's own row for row, apart from the rows of the analyses taken out.
 
 ## Not included
 
